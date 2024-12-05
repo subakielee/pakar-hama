@@ -1,0 +1,63 @@
+/* CSS untuk desain tampilan */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa; /* Warna biru muda */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1 {
+    color: #00796b; /* Warna hijau kebiruan */
+}
+
+.search-box {
+    margin-top: 20px;
+}
+
+.search-box input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-box button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #00796b;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-box button:hover {
+    background-color: #004d40;
+}
+
+.result {
+    margin-top: 30px;
+    text-align: left;
+    color: #555;
+}
+
+.result h3 {
+    color: #00796b;
+}
+
+.footer {
+    margin-top: 50px;
+    font-size: 14px;
+    color: #777;
+}
